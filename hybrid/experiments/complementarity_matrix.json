@@ -1,0 +1,24 @@
+{
+  "hit1": {
+    "both": 2525,
+    "only_CF": 5463,
+    "only_CBF": 11370,
+    "neither": 51580,
+    "n": 70938,
+    "both_pct": 3.56,
+    "only_CF_pct": 7.7,
+    "only_CBF_pct": 16.03,
+    "neither_pct": 72.71
+  },
+  "hit5": {
+    "both": 20339,
+    "only_CF": 6574,
+    "only_CBF": 19209,
+    "neither": 24816,
+    "n": 70938,
+    "both_pct": 28.67,
+    "only_CF_pct": 9.27,
+    "only_CBF_pct": 27.08,
+    "neither_pct": 34.98
+  }
+}

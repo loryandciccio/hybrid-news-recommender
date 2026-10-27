@@ -1,0 +1,20 @@
+{
+  "top1": {
+    "solo_CF": 5.38,
+    "solo_CBF": 7.52,
+    "entrambi": 7.23,
+    "nessuno": 79.87
+  },
+  "top5": {
+    "solo_CF": 8.51,
+    "solo_CBF": 11.76,
+    "entrambi": 33.77,
+    "nessuno": 45.96
+  },
+  "top10": {
+    "solo_CF": 8.36,
+    "solo_CBF": 10.46,
+    "entrambi": 52.62,
+    "nessuno": 28.57
+  }
+}

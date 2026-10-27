@@ -1,0 +1,130 @@
+{
+  "Hybrid 0/3/97 vs CBF puro": {
+    "AUC": {
+      "n_impressions": 70938,
+      "observed_mean_diff": -3.748197616440543e-05,
+      "bootstrap_mean_diff": -3.737019498552019e-05,
+      "ci95_low": -5.9932856375813235e-05,
+      "ci95_high": -1.3937314651903149e-05,
+      "ci_includes_zero": false,
+      "n_bootstrap_samples": 10000,
+      "seed": 42
+    },
+    "MRR": {
+      "n_impressions": 70938,
+      "observed_mean_diff": -2.406230988616736e-05,
+      "bootstrap_mean_diff": -2.445440169551072e-05,
+      "ci95_low": -0.00010431663005771684,
+      "ci95_high": 5.6896248451618625e-05,
+      "ci_includes_zero": true,
+      "n_bootstrap_samples": 10000,
+      "seed": 42
+    },
+    "nDCG5": {
+      "n_impressions": 70938,
+      "observed_mean_diff": 2.577644467529297e-05,
+      "bootstrap_mean_diff": 2.5653986651923655e-05,
+      "ci95_low": -3.59099640759308e-05,
+      "ci95_high": 8.777132673957436e-05,
+      "ci_includes_zero": true,
+      "n_bootstrap_samples": 10000,
+      "seed": 42
+    }
+  },
+  "CF puro vs CBF puro": {
+    "AUC": {
+      "n_impressions": 70938,
+      "observed_mean_diff": -0.14417070662328885,
+      "bootstrap_mean_diff": -0.14417982090041948,
+      "ci95_low": -0.14639896787955584,
+      "ci95_high": -0.14198763417953938,
+      "ci_includes_zero": false,
+      "n_bootstrap_samples": 10000,
+      "seed": 42
+    },
+    "MRR": {
+      "n_impressions": 70938,
+      "observed_mean_diff": -0.11431488708803542,
+      "bootstrap_mean_diff": -0.11431095643298718,
+      "ci95_low": -0.11724031450940553,
+      "ci95_high": -0.1114517176032314,
+      "ci_includes_zero": false,
+      "n_bootstrap_samples": 10000,
+      "seed": 42
+    },
+    "nDCG5": {
+      "n_impressions": 70938,
+      "observed_mean_diff": -0.12321911385271811,
+      "bootstrap_mean_diff": -0.12321376404575199,
+      "ci95_low": -0.12606266677047015,
+      "ci95_high": -0.12047154965499861,
+      "ci_includes_zero": false,
+      "n_bootstrap_samples": 10000,
+      "seed": 42
+    }
+  },
+  "Hybrid 0/10/90 vs CBF puro": {
+    "AUC": {
+      "n_impressions": 70938,
+      "observed_mean_diff": -0.0001659070228221567,
+      "bootstrap_mean_diff": -0.00016551986890099842,
+      "ci95_low": -0.00022068318760846075,
+      "ci95_high": -0.00010940730741785531,
+      "ci_includes_zero": false,
+      "n_bootstrap_samples": 10000,
+      "seed": 42
+    },
+    "MRR": {
+      "n_impressions": 70938,
+      "observed_mean_diff": -0.000251634820844497,
+      "bootstrap_mean_diff": -0.0002523795180908598,
+      "ci95_low": -0.00043256622144203637,
+      "ci95_high": -7.022776247520876e-05,
+      "ci_includes_zero": false,
+      "n_bootstrap_samples": 10000,
+      "seed": 42
+    },
+    "nDCG5": {
+      "n_impressions": 70938,
+      "observed_mean_diff": -9.472560925291466e-05,
+      "bootstrap_mean_diff": -9.404710802673802e-05,
+      "ci95_low": -0.00024140215463819742,
+      "ci95_high": 5.394204460830821e-05,
+      "ci_includes_zero": true,
+      "n_bootstrap_samples": 10000,
+      "seed": 42
+    }
+  },
+  "Baseline pura vs CBF puro": {
+    "AUC": {
+      "n_impressions": 70938,
+      "observed_mean_diff": -0.1569661904972259,
+      "bootstrap_mean_diff": -0.15697628906300357,
+      "ci95_low": -0.15944355093932908,
+      "ci95_high": -0.15454398951547182,
+      "ci_includes_zero": false,
+      "n_bootstrap_samples": 10000,
+      "seed": 42
+    },
+    "MRR": {
+      "n_impressions": 70938,
+      "observed_mean_diff": -0.13857644762471577,
+      "bootstrap_mean_diff": -0.13857870125809216,
+      "ci95_low": -0.14133605765611004,
+      "ci95_high": -0.13588095068053457,
+      "ci_includes_zero": false,
+      "n_bootstrap_samples": 10000,
+      "seed": 42
+    },
+    "nDCG5": {
+      "n_impressions": 70938,
+      "observed_mean_diff": -0.14418536056499598,
+      "bootstrap_mean_diff": -0.14418035191492598,
+      "ci95_low": -0.1469669250508673,
+      "ci95_high": -0.14145751076934004,
+      "ci_includes_zero": false,
+      "n_bootstrap_samples": 10000,
+      "seed": 42
+    }
+  }
+}

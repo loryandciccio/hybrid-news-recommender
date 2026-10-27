@@ -1,0 +1,104 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Dataset files (large)
+#dataset/MINDsmall_train/behaviors.tsv
+#dataset/MINDsmall_train/news.tsv
+#dataset/MINDsmall_train/entity_embedding.vec
+#dataset/MINDsmall_train/relation_embedding.vec
+#dataset/MINDsmall_dev/behaviors.tsv
+#dataset/MINDsmall_dev/news.tsv
+#dataset/MINDsmall_dev/entity_embedding.vec
+#dataset/MINDsmall_dev/relation_embedding.vec
+
+# Output and logs
+*.log
+logs/
+output/
+results/
+*.csv
+*.pkl
+*.pickle
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Portfolio distribution: restricted datasets and regenerable outputs
+dataset/
+demo/generated/
+**/*.npy
+**/*.npz
+**/*.pt
+**/*.pth
+**/*.pkl
+**/checkpoints/
+**/results/
+**/cache/
+**/__pycache__/
+**/*.log
+**/*_prediction.txt
+*.env
+.env.*

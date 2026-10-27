@@ -1,0 +1,35 @@
+{
+  "train_rows_total": 156965,
+  "train_rows_with_history": 153727,
+  "train_rows_with_impressions": 156965,
+  "train_users_distinct": 50000,
+  "history": {
+    "total_interactions": 5107639,
+    "distinct_items": 33195
+  },
+  "impressions": {
+    "positive_interactions": 236344,
+    "negative_interactions": 5607100,
+    "distinct_clicked_items": 7713,
+    "distinct_candidate_items": 20288
+  },
+  "overlap_history_vs_clicked_items": {
+    "both": 1043,
+    "only_history_never_clicked_in_impressions": 32152,
+    "only_clicked_never_in_history": 6670,
+    "union_distinct_items": 39865,
+    "pct_history_items_also_clicked": 3.14,
+    "pct_clicked_items_never_in_history": 86.48
+  },
+  "ignored_by_current_cf": {
+    "total_positive_click_events_in_train": 236344,
+    "positive_click_events_on_items_absent_from_history": 202528,
+    "distinct_items_absent_from_history_but_clicked": 6670
+  },
+  "coverage": {
+    "current_cf_item_coverage_history_only": 33195,
+    "potential_cf_item_coverage_history_plus_clicks": 39865,
+    "coverage_gain_items": 6670,
+    "coverage_gain_pct": 20.09
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "baseline_majority": {
+    "roc_auc": 0.5,
+    "pr_auc": 0.6147,
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0
+  },
+  "logistic_regression": {
+    "roc_auc": 0.5836,
+    "pr_auc": 0.6194,
+    "balanced_accuracy": 0.5447,
+    "precision": 0.6404,
+    "recall": 0.2971,
+    "coefficients": {
+      "history_length": 0.0899,
+      "n_candidates": 0.0574,
+      "warm_candidate_ratio": -0.2227,
+      "cf_score_std": -0.1803,
+      "cbf_score_std": -0.123,
+      "cf_score_max": 0.3201,
+      "cbf_score_max": 0.0004,
+      "cf_gap_top1_top2": -0.2019,
+      "cbf_gap_top1_top2": -0.1563,
+      "topk5_agreement_cf_cbf": -0.0632
+    }
+  },
+  "decision_tree": {
+    "roc_auc": 0.5214,
+    "pr_auc": 0.5736,
+    "balanced_accuracy": 0.5173,
+    "precision": 0.5917,
+    "recall": 0.2459,
+    "feature_importances": {
+      "history_length": 0.0,
+      "n_candidates": 0.5286,
+      "warm_candidate_ratio": 0.2643,
+      "cf_score_std": 0.0,
+      "cbf_score_std": 0.0624,
+      "cf_score_max": 0.0,
+      "cbf_score_max": 0.0,
+      "cf_gap_top1_top2": 0.0,
+      "cbf_gap_top1_top2": 0.1447,
+      "topk5_agreement_cf_cbf": 0.0
+    }
+  }
+}

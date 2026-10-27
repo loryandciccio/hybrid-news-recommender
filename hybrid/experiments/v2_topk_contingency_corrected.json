@@ -1,0 +1,43 @@
+{
+  "informative_subset": {
+    "top1": {
+      "solo_CF": 2.4,
+      "solo_CBF": 4.88,
+      "entrambi": 2.21,
+      "nessuno": 90.51
+    },
+    "top5": {
+      "solo_CF": 7.97,
+      "solo_CBF": 13.56,
+      "entrambi": 8.12,
+      "nessuno": 70.35
+    },
+    "top10": {
+      "solo_CF": 11.77,
+      "solo_CBF": 15.94,
+      "entrambi": 18.19,
+      "nessuno": 54.1
+    }
+  },
+  "full_sample_with_artifact": {
+    "top1": {
+      "solo_CF": 5.38,
+      "solo_CBF": 7.52,
+      "entrambi": 7.23,
+      "nessuno": 79.87
+    },
+    "top5": {
+      "solo_CF": 8.51,
+      "solo_CBF": 11.76,
+      "entrambi": 33.77,
+      "nessuno": 45.96
+    },
+    "top10": {
+      "solo_CF": 8.36,
+      "solo_CBF": 10.46,
+      "entrambi": 52.62,
+      "nessuno": 28.57
+    }
+  },
+  "pct_informative": 23.58
+}
